@@ -1,0 +1,73 @@
+.App {
+  /* text-align: center; */
+  border: solid red 5px;
+  padding:10px;
+  margin: 10%;
+  /* display: flex; */
+}
+
+
+.main{
+  display: flex;
+}
+.title{
+  text-align: center;
+}
+.check{
+  background: url("./다운로드.png") no-repeat;
+  height: 16px;
+  width: 16px;
+  margin-left: 10px;
+  border:none;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+
+.box{
+  border: solid blue 5px;
+  width:35%;
+  height:500px;
+  margin:10px;
+  overflow-y: scroll;
+}
+.Add_List{
+  margin:10px;
+}
+.List{
+  margin-top:5px;
+  text-align: center;
+}
+
+.box_list{
+  /* text-align: left; */
+  margin:10px;
+  /* padding:20px; */
+  border-bottom: solid powderblue 1px;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+.box_list:hover{
+  background: powderblue;
+  cursor: pointer;
+  color:tomato
+}
+.Box_List_Entry{
+  text-align: center;
+}
+
+
+
+.Todo_List_entry{
+  border:solid black 2px;
+  /* padding:30%; */
+  margin:10px;
+  width:50%;
+}
+
+.Add_Todo_BT{
+  text-align: right;
+  margin-top:10px;
+  margin-right:10px;
+}
+
